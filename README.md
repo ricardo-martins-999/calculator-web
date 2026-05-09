@@ -13,6 +13,8 @@ O projeto foi criado com foco em:
 
 A aplicação suporta operações matemáticas avançadas, temas dinâmicos e entrada via teclado, oferecendo uma experiência fluida tanto em desktop quanto em dispositivos móveis.
 
+App acessível aqui: [Calculator](https://ricardo-martins-999.github.io/calculator-web/src/index.html)
+
 ## Funcionalidades
 
 ### Operações Matemáticas
