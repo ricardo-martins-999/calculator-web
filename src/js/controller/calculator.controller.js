@@ -25,7 +25,7 @@ export function appendValue(value) {
         calculatorState.shouldReset = false;
     }
 
-    const lastChar = calculatorState.expression.slice(-1);
+    const lastChar = normalizeOperator(calculatorState.expression.slice(-1));
 
     if (isOperator(normalizeOperator(value)) && isOperator(lastChar)) {
         calculatorState.expression = calculatorState.expression.slice(0, -1) + value;
