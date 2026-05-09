@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/variables.css" />
+    <link rel="stylesheet" href="./assets/css/themes.css" />
+    <link rel="stylesheet" href="./assets/css/layout.css" />
+    <link rel="stylesheet" href="./assets/css/components/buttons.css" />
+    <link rel="stylesheet" href="./assets/css/components/display.css" />
+</head>
+<body>
+    <div class="main">
+
+        <div class="top-bar">
+            <button id="theme-toggle">
+                <i class="fa-solid fa-sun"></i>
+            </button>
+        </div>
+
+        <div class="display">
+            <div id="expression" class="expression"></div>
+            <div class="result">
+                <span>=</span>
+                <div id="result"></div>
+            </div>
+        </div>
+
+        <div class="grid-buttons">
+            <button data-value="sin(">sin</button>
+            <button data-value="cos(">cos</button>
+            <button data-value="tan(">tan</button>
+            <button data-value="log(">log</button>
+            <button data-value="sqrt(">√</button>
+
+            <button data-value="^">xʸ</button>
+            <button data-value="(">(</button>
+            <button data-value=")">)</button>
+            <button class="clear" data-action="clear">AC</button>
+            <button class="delete" data-action="delete">⌫</button>
+
+            <button class="operator" data-value="%">%</button>
+            <button class="operator" data-value="÷">÷</button>
+            <button data-value="7">7</button>
+            <button data-value="8">8</button>
+            <button data-value="9">9</button>
+
+            <button class="operator" data-value="×">×</button>
+            <button data-value="4">4</button>
+            <button data-value="5">5</button>
+            <button data-value="6">6</button>
+            <button class="operator" data-value="-">−</button>
+
+            <button data-value="1">1</button>
+            <button data-value="2">2</button>
+            <button data-value="3">3</button>
+            <button class="operator" data-value="+">+</button>
+
+            <button data-value="0">0</button>
+            <button data-value=".">.</button>
+            <button class="equal" data-action="calculate">==</button>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/8d9600f1af.js" crossorigin="anonymous"></script>
+    <script type="module" src="./js/app.js"></script>
+</body>
+</html>

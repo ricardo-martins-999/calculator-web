@@ -1,0 +1,45 @@
+.display {
+    flex: 1;
+    
+    padding: 80px 25px 25px;
+    text-align: right;
+    color: var(--text);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.08),
+        transparent
+    );
+}
+
+.expression {
+    opacity: 0.6;
+    font-size: 14px;
+}
+
+.result {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#result {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#result {
+    transition: transform 0.2s ease;
+}
+
+span {
+    opacity: 0.7;
+    font-size: 20px;
+}

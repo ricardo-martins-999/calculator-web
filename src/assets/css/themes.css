@@ -1,0 +1,25 @@
+[data-theme='dark'] {
+    --bg: #000000;
+
+    --surface: #050505;
+    --surface-secondary: #111111;
+
+    --text: #fafafa;
+    --text-secondary: #a3a3a3;
+
+    --primary: #3b82f6;
+    --secondary: #8b5cf6;
+}
+
+[data-theme='light'] {
+    --bg: #020617;
+
+    --surface: #0f172a;
+    --surface-secondary: #1e293b;
+
+    --text: #f8fafc;
+    --text-secondary: #94a3b8;
+
+    --primary: #6366f1;
+    --secondary: #3b82f6;
+}

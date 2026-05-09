@@ -1,0 +1,13 @@
+:root {
+    --transition-theme: 0.3s ease;
+
+    --bg: #0f172a;
+    --surface: #1e293b;
+    --surface-secondary: #ffffff;
+
+    --text: #f8fafc;
+    --text-secondary: #111827;
+
+    --primary: #2563eb;
+    --secondary: #06b6d4;
+}

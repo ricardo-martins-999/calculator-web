@@ -1,0 +1,91 @@
+button {
+    font-size: 16px;
+    font-weight: 600;
+
+    color: var(--text-secondary);
+    background: transparent;
+    backdrop-filter: blur(2px);
+
+    transition:
+        background var(--transition-theme),
+        transform 0.2s ease;
+
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
+    border: none;
+    border-radius: 14px;
+}
+
+button:hover {
+    transform: translate(-2px);
+    background: rgba(0, 0, 0, 0.05);
+}
+
+button:active {
+    filter: brightness(0.9);
+    transform: scale(0.92);
+}
+
+.clear,
+.delete,
+.operator {
+    color: var(--secondary);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.equal {
+    color: var(--light);
+    background: linear-gradient(135deg, var(--secondary), var(--primary));
+    
+    grid-column: span 2;
+
+    border-radius: 30px;
+
+    transition:
+        transform 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+        background 0.3s ease,
+        box-shadow 0.2s ease;
+}
+
+.equal:hover {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    transform: scale(0.96);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+#theme-toggle {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 18px;
+
+    color: var(--text);
+
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0.08);
+
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+
+    transition:
+        transform 0.2s ease,
+        background var(--transition-theme),
+        color var(--transition-theme);
+}
+
+#theme-toggle:hover {
+    transform: scale(1.08);
+
+    background: rgba(255, 255, 255, 0.14);
+}
+
+#theme-toggle:active {
+    transform: scale(0.94);
+}
